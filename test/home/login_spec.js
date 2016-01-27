@@ -15,4 +15,4 @@ describe('Login', () => {
       expect(spy.called).to.be.true
     })
   })
-})
+});

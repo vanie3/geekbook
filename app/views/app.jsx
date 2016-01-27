@@ -11,7 +11,7 @@ import '~/app/assets/styles/app'
 
 class App extends React.Component {
   render() {
-    const { children } = this.props
+    const { children } = this.props;
 
     return (
       <div className='container'>
@@ -27,4 +27,4 @@ render((
       <IndexRoute component={Home} />
     </Route>
   </Router>
-), document.getElementById('react'))
+), document.getElementById('react'));
